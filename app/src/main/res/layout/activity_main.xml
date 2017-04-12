@@ -1,0 +1,169 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/golapgonj"
+        android:id="@+id/Golapgonj"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New York Golapgonj Society"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:id="@+id/NY"
+        android:layout_below="@+id/Golapgonj"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="144-14-107thAVE Jamaica,NY,11435"
+        android:id="@+id/adress"
+        android:layout_below="@+id/NY"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/mark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/adress"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shanahmed1997@gmail.com"
+        android:textSize="20sp"
+        android:id="@+id/email"
+        android:layout_below="@+id/adress"
+        android:layout_toRightOf="@+id/mai"
+        android:layout_toEndOf="@+id/mai"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/message"
+        android:layout_alignBottom="@+id/email"
+        android:id="@+id/mai"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="646-258-6473"
+        android:id="@+id/phone"
+        android:layout_below="@+id/email"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/telephone"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/phone"
+        android:layout_alignBottom="@+id/phone"
+        android:id="@+id/telephone"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewYorkGolapgonjSociety.com"
+        android:layout_below="@+id/phone"
+        android:textSize="20sp"
+        android:id="@+id/web"
+        android:layout_toRightOf="@+id/website"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/website"
+        android:id="@+id/website"
+        android:layout_alignBottom="@+id/web"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"
+        android:text="New York Golapgonj Society Inc."
+        android:layout_below="@+id/web"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/facebook"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/facebook"
+        android:layout_alignBottom="@+id/fb"
+        android:id="@+id/facebook"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GolapgonjSociety"
+        android:layout_below="@+id/fb"
+        android:textSize="20sp"
+        android:id="@+id/tweet"
+        android:layout_toRightOf="@+id/twitter"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/twitter"
+        android:layout_alignBottom="@+id/tweet"
+        android:id="@+id/twitter"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9am - 5pm"
+        android:textSize="20sp"
+        android:id="@+id/hours"
+        android:layout_below="@+id/tweet"
+        android:layout_toRightOf="@+id/open"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/open"
+        android:layout_alignBottom="@+id/hours"
+        android:id="@+id/open"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are a non-profit organization who's mission is to make a community with the people of golapgonj living in new york"
+        android:layout_below="@+id/open"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
